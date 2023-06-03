@@ -15,7 +15,7 @@ function Songs () {
             <ul>
                 <Link to='/highonlife'>
                 <li className='Songs'>
-                    <img src={HighOnLife} height={200}/>
+                    <img src={HighOnLife} alt='song' height={200}/>
                     <div className='Text'>
                         <h2>High On Life</h2>
                         <p>Martin Garrix, Bonn</p>
@@ -25,7 +25,7 @@ function Songs () {
                 <br/>
                 <Link to='/higherground'>
                 <li className='Songs'>
-                    <img src={HigherGround} height={200}/>
+                    <img src={HigherGround} alt='song' height={200}/>
                     <div className='Text'>
                         <h2>Higher Ground</h2>
                         <p>Martin Garrix, John Martin</p>
@@ -34,7 +34,7 @@ function Songs () {
                 </Link>
                 <br/>
                 <li className='Songs'>
-                    <img src={TenFeetTall} height={200}/>
+                    <img src={TenFeetTall} alt='song' height={200}/>
                     <div className='Text'>
                         <h2>Ten Feet Tall</h2>
                         <p>AFROJACK</p>
@@ -42,7 +42,7 @@ function Songs () {
                 </li>
                 <br/>
                 <li className='Songs'>
-                    <img src={WithoutYou} height={200}/>
+                    <img src={WithoutYou} alt='song' height={200}/>
                     <div className='Text'>
                         <h2>Without You</h2>
                         <p>Avicii, Sandro Cavazza</p>
@@ -50,7 +50,7 @@ function Songs () {
                 </li>
                 <br/>
                 <li className='Songs'>
-                    <img src={NoSleep} height={200}/>
+                    <img src={NoSleep} alt='song' height={200}/>
                     <div className='Text'>
                         <h2>No Sleep</h2>
                         <p>Martin Garrix, John Martin</p>
@@ -58,7 +58,7 @@ function Songs () {
                 </li>
                 <br/>
                 <li className='Songs'>
-                    <img src={BlindingLights} height={200}/>
+                    <img src={BlindingLights} alt='song' height={200}/>
                     <div className='Text'>
                         <h2>Blinding Lights</h2>
                         <p>The Weeknd</p>
@@ -66,7 +66,7 @@ function Songs () {
                 </li>
                 <br/>
                 <li className='Songs'>
-                    <img src={OnAndOn} height={200}/>
+                    <img src={OnAndOn} alt='song' height={200}/>
                     <div className='Text'>
                         <h2>On & On</h2>
                         <p>Cartoon</p>

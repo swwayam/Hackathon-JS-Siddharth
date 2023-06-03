@@ -13,31 +13,31 @@ function Artists(){
             <ul className='List'>
                 <h1 className='h1'>Artists</h1>
                 <li className='ListItem'>
-                    <img src={MartinGarrix} height={100} className='ArtistPhoto'/>
+                    <img src={MartinGarrix} alt='name' height={100} className='ArtistPhoto'/>
                     <h2 className='Artistname'>Martin Garrix</h2>
                 </li>
                 <li className='ListItem'>
-                    <img src={Bonn} height={100} className='ArtistPhoto'/>
+                    <img src={Bonn} alt='artist' height={100} className='ArtistPhoto'/>
                     <h2 className='Artistname'>Bonn</h2>
                 </li>
                 <li className='ListItem'>
-                    <img src={JohnMartin} height={100} className='ArtistPhoto'/>
+                    <img src={JohnMartin} alt='artist' height={100} className='ArtistPhoto'/>
                     <h2 className='Artistname'>John Martin</h2>
                 </li>
                 <li className='ListItem'>
-                    <img src={Afrojack} height={100} className='ArtistPhoto'/>
+                    <img src={Afrojack} alt='artist' height={100} className='ArtistPhoto'/>
                     <h2 className='Artistname'>AFROJACK</h2>
                 </li>
                 <li className='ListItem'>
-                    <img src={Avicii} height={100} className='ArtistPhoto'/>
+                    <img src={Avicii} alt='artist' height={100} className='ArtistPhoto'/>
                     <h2 className='Artistname'>Avicii</h2>
                 </li>
                 <li className='ListItem'>
-                    <img src={SandroCavazza} height={100} className='ArtistPhoto'/>
+                    <img src={SandroCavazza} alt='artist' height={100} className='ArtistPhoto'/>
                     <h2 className='Artistname'>Sandro Cavazza    </h2>
                 </li>
                 <li className='ListItem'>
-                    <img src={GlassAnimals} height={100} className='ArtistPhoto'/>
+                    <img src={GlassAnimals} alt='artist' height={100} className='ArtistPhoto'/>
                     <h2 className='Artistname'>Glass Animals</h2>
                 </li>
             </ul>

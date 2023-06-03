@@ -7,8 +7,8 @@ function Navbar() {
 
   const[player, setPlayer] = useState(false);
 
-  const show = () =>{
-    if(player == false){
+
+    if(player === false){
       setPlayer(true);
       console.log(player);
     }
@@ -16,11 +16,11 @@ function Navbar() {
       setPlayer(false)
       console.log(player);
     }
-  }
+  
   
   return (
     <div className="Container">
-      <img src={Logo} className='Logo'/>
+      <img src={Logo} alt='logo' className='Logo'/>
       <div className='right'>
         <GoThreeBars className='hamburgericon' /> 
           {/* <div className='menu'/> */}
